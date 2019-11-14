@@ -1,6 +1,6 @@
 # Java - Delete a Recording
 
-This project serves as a guide to help you build an application with FreeClimb. Specifically, the project will:
+This project serves as a guide to help you build an application with FreeClimb. View this tutorial on [FreeClimb.com](https://docs.freeclimb.com/docs/delete-a-recording-2#section-java). Specifically, the project will:
 
 - Delete a Recording
 
