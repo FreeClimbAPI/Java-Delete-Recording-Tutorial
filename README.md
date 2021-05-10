@@ -14,8 +14,8 @@ To get started using a FreeClimb account, follow the instructions [here](https:/
 
    | ENV VARIABLE | DESCRIPTION                                                                                                                              |
    | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
-   | ACCOUNT_ID   | Account ID which can be found under [API Keys](https://www.freeclimb.com/dashboard/portal/account/authentication) in Dashboard           |
-   | AUTH_TOKEN   | Authentication Token which can be found under [API Keys](https://www.freeclimb.com/dashboard/portal/account/authentication) in Dashboard |
+   | ACCOUNT_ID   | Account ID which can be found under [API credentials](https://www.freeclimb.com/dashboard/portal/account/authentication) in Dashboard           |
+   | API_KEY   | API key which can be found under [API credentials](https://www.freeclimb.com/dashboard/portal/account/authentication) in Dashboard |
 
 2. Provide a value for the variable `recordingId` in DeleteRecordingController.java. You can find the recording Id in the [recordings tab of the dashboard](https://www.freeclimb.com/dashboard/portal/recordings). To find out more about recordings, check out the [recording documentation](https://docs.freeclimb.com/docs/recordings-3)
 
