@@ -23,8 +23,8 @@ public class DeleteRecordingController {
     try {
       // Create FreeClimbClient object
       String accountId = System.getenv("ACCOUNT_ID");
-      String authToken = System.getenv("AUTH_TOKEN");
-      client = new FreeClimbClient(accountId, authToken);
+      String apiKey = System.getenv("API_KEY");
+      client = new FreeClimbClient(accountId, apiKey);
 
       String recordingId = "RErecordingId"; // desired recordingId to be deleted
       client.recordings.delete(recordingId);
